@@ -1,6 +1,6 @@
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = "postgresql://postgres:tbRYe9YZLvnfKvFXtOiO@containers-us-west-197.railway.app:5565/railway?connection_limit=1"
 }
 
 generator client {
